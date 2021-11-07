@@ -8,6 +8,7 @@
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet'>
     <link href='' rel='stylesheet'>
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="../css/booly.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mysyles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -15,18 +16,18 @@
 </head>
 
 <body oncontextmenu='return false' class='snippet-body' data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top"> <a href="#"
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md navbar-inverse py-0 fixed-top"> <a href="#"
             class="navbar-brand">BRANDNAME</a> <button class="navbar-toggler" data-toggle="collapse"
             data-target="#navLinks"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav">
-                <li class="nav-item"> <a href="" class="nav-link">HOME</a> </li>
-                <li class="nav-item"> <a href="" class="nav-link">ABOUT</a> </li>
-                <li class="nav-item"> <a href="" class="nav-link">SERVICES</a> </li>
-                <li class="nav-item"> <a href="" class="nav-link">CONTACTS</a> </li>
+                <li class="nav-item"> <a href="#sec1" class="nav-link">HOME</a> </li>
+                <li class="nav-item"> <a href="#sec2" class="nav-link">ABOUT</a> </li>
+                <li class="nav-item"> <a href="#sec3" class="nav-link">SERVICES</a> </li>
+                <li class="nav-item"> <a href="#sec4" class="nav-link">CONTACTS</a> </li>
         </div>
     </nav>
-    <header>
+    <header id="sec1">
         <div id="indicators" class="carousel slide  " data-ride="carousel"  >
             <ol class="carousel-indicators">
                 <li data-target="#indicators" data-slide-to="0" class="active"></li>
@@ -63,10 +64,11 @@
         </div>
     </header>
     <!-- Page Content -->
+    <!-- page 2 -->
     <div class="alert alert-light" role="alert">
        <center> <div style="border-bottom:3px solid black ; width: fit-content;" > WHO ARE WE </div></center>
       </div>
-    <section class="s1"  >
+    <section id="sec2" class="s1"  >
 
 <!-- <br> -->
         <div class="container" >
@@ -99,8 +101,81 @@
 
     <br>
     <br>
+    <div class="alert alert-light" role="alert">
+        <center> <div style="border-bottom:3px solid black ; width: fit-content;" > WHO ARE WE </div></center>
+       </div>
+       <!-- section 3 -->
+     <section id="sec2" class="s1"  >
+ 
+ <!-- <br> -->
+         <div class="container" >
+             <div class="card mb-1" style="width: auto; height: auto; min-height: 400px; margin-top: 45px; border: none;">
+                 <div class="row g-1">
+                    <div class="col-md-7" style="height:auto; min-height: 300px;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                   <div class="col-md-4 cohas"  >
+                     <!-- <img src="./images/home1.jpeg" class="img-fluid rounded-start" height="400px" alt="..."> -->
+                   </div>
+                   
+                 </div>
+               </div>
+             <!-- <h1>Hello World!</h1> -->
+             <!-- <div class="row" >
+               <div class="col-sm-4 mojo-image">
+               
+               </div>
+               <div class="col-sm-8" style="background-color:pink;">
+                 <p>Sed ut perspiciatis...</p>
+               </div>
+             </div> -->
+           </div>
+        
+     </section>
+     <!-- sec4 -->
+     <section id="sec3" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 Services-tab item">
+                    <div class="folded-corner service_tab_1">
+                        <div class="text"> <i class="fa fa-image fa-5x fa-icon-image"></i>
+                            <p class="item-title">
+                                <h3> Plan</h3>
+                            </p><!-- /.item-title -->
+                            <p> This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides, </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 Services-tab item">
+                    <div class="folded-corner service_tab_1">
+                        <div class="text"> <i class="fa fa-lightbulb fa-5x fa-icon-image"></i>
+                            <p class="item-title">
+                                <h3> Design</h3>
+                            </p><!-- /.item-title -->
+                            <p> This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides, </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 Services-tab item">
+                    <div class="folded-corner service_tab_1">
+                        <div class="text"> <i class="fa fa-user fa-5x fa-icon-image"></i>
+                            <p class="item-title">
+                                <h3> Market</h3>
+                            </p>
+                            <p> This is an amazing set of animated accordions based completely on CSS. They come oriented both vertically and horizontally in order to fit properly in your project. In order to see the slides, </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
+     </section>
+<br>
+<br>
 <!-- footer -->
 
  <footer class="footer-05">
